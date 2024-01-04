@@ -1,0 +1,453 @@
+﻿
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    color: white;
+    font-family: 'Nunito', sans-serif !important;
+    background: black;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* Navigation */
+nav {
+    background: black;
+}
+#logo, #menu {
+    float: left; 
+}
+#logo {
+    margin-left: 30px;
+}
+#menu {
+    margin-top: -15px;
+    margin-left: 10px;
+}
+.nav-item *{
+    margin-left: 10px;
+    color: rgb(89, 89, 89);
+}
+.nav-item:hover *{
+    color: white;
+}
+.nav-link{
+    margin-left: 50px;
+}
+#dropdown {
+    float: right;
+    margin-top: -5px;
+}
+#canva {
+    background: black;
+}
+#menu-button {
+    float: right;
+}
+#but-me {
+    align-items: center;
+}
+.dropdown-menu{
+    background-color: black;
+}
+.dropdown-item{
+    color: white;
+    border-radius: 5px;
+}
+.dropdown-item:hover{
+    color: #141414;
+    background-color: white;
+}
+/* Carousel */
+.carousel-inner img {
+    width: 100%;
+}
+
+button.carousel-control-prev {
+    padding-right: 10%;
+    max-width: 5px;
+}
+#prev {
+    margin-left: -120px;
+}
+button.carousel-control-next {
+    padding-left: 10%;
+    max-width: 5px;
+}
+#next {
+    position: absolute;
+    margin-right: 30px;
+}
+
+.carrousel-item img *{
+    background-size: cover;
+}
+
+/*Search*/
+.Search {       
+    position: absolute;
+    left: 50%;    
+    transform: translate(-50%, -50%);
+}
+
+.txtSearch {
+    height: 40px;
+    width: 400px;
+    margin-top: 20px;    
+    background-color: black;
+    border-radius: 10px;
+    border: 2px solid #808080;
+    color: gray;
+}
+.smtSearch {
+    height: 40px;
+    width: 60px;
+    background-color: black;
+    border-radius: 10px;
+    border: 2px solid #808080;
+    color: gray;
+    margin-left: -60px;
+}
+    .smtSearch:hover {
+        color: black;
+        background-color: white;
+        border: 2px solid #ffff;
+    }
+
+/* Black Adam  */
+#XT{
+    text-shadow: 5px 5px 15px black;
+}
+#Logo {
+    margin-left: -150px;
+    margin-top: 50px;
+    font-weight: 900;
+    font-size: 20px;
+}
+#Logo img {
+    max-width: 5%;
+}
+#XT h1 {
+    margin-left: -150px;
+    margin-top: 25px;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+#XT-rate {
+    margin-left: -150px;
+    color: rgb(255, 255, 0);
+}
+#XT-rate span {
+    color: white;
+}
+#XT-intro {
+    margin-top: -500px;
+}
+#XT-intro *{
+    text-align: left;
+}
+#XT-p {
+    margin-left: -150px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+#XTPlay {
+    margin-left: -150px;
+    font-size: 16px;
+    font-weight: 600;
+}
+#XTPlay:hover {
+    background: red;
+    color: white;
+    border: 1px solid red;
+}
+#XTplay {
+    font-size: 25px;
+    margin-top: -6px;
+    margin-bottom: -6px;
+}
+#XTInfo {
+    background: rgb(89, 89, 89);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+#XTInfo:hover {
+    background:rgb(59, 59, 59);
+}
+#XTinfo {
+    font-size: 25px;
+    margin-top: -5px;
+    margin-bottom: -8px;
+}
+#Logo1 {
+    margin: -200px 0px 20px 40px;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+    #Logo1 img {
+        max-width: 3%;
+    }
+
+
+/* Film Lists */
+.icon{
+    display: flex;
+    justify-content: space-between;
+    background-color: #141414;
+}
+.icon-l{
+    margin-left: -100px;
+}
+.icon-l button{
+    border: none;
+    background-color: #141414;
+}
+.icon-r{
+    margin-right: 10px;
+}
+#ionicon{
+    color: rgb(177, 180, 184);
+    font-size: 45px;
+}
+#ionicon:hover {
+    color: white
+}
+.demo{
+    display: flex;
+    float: left;
+    background-color: #141414;
+    width: 100%;
+}
+.demo .status{
+    color: #46d369;
+    white-space: unset;
+    margin: 0px 15px 0px 15px;
+}
+.demo .age{
+    border: 1px solid rgb(141, 144, 146);
+    font-size: 16px;
+}
+.demo .series{
+    font-size: 16px;
+    margin-left: 10px;
+}
+.title{
+    font-size: 18px;
+    margin-left: 15px;
+}
+.trending-movies {    
+    margin: 70px 0 0 60px;
+    font-size: 20px;
+}
+.trend-heading {
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+#arrow {
+    color: white;
+    font-size: 25px;
+    margin-top: -5px;
+    margin-bottom: -7px;
+}
+
+.bg-img {
+    width: 100%;
+    height: 720px;
+    object-fit: cover;
+}
+
+#rowon {
+    margin-top: 20px;
+    color: white;
+    padding-left: 5%;
+    padding-bottom: 10%;
+}
+
+#rowdown {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.grid-container {
+    display: grid;
+    /* column-gap: 10px; */
+    row-gap: 50px;
+    grid-template-columns: auto auto auto;
+    max-width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+}
+
+.grid-item {
+    border-radius: 10px;
+}
+
+.img-mv {
+    width: 360px;
+    height: 250px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+/* Trending Film */
+.swiper-wrapper {
+    margin-left: -34%;
+}
+.swiper-slide {
+    max-width: 20%;
+    max-height: 50%;
+    align-items: center;
+}
+.swiper-slide *{
+    text-decoration: none;
+}
+.swiper-slide img {
+    width: 100%;
+}
+.swiper-slide a .movie-pre {
+    position: relative;
+    z-index: 1;
+    opacity: 1;
+    transition: 0.5s;
+}
+.swiper-slide:hover #trans .movie-pre {
+    transform: translateY(110px);
+}
+
+.swiper-content{
+    max-height: 300px;
+    background-color: #141414;
+    position: relative;
+    transform: translateY(-170px);
+}
+
+#title {
+    background: linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5)100%);
+    font-size: 18px;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    align-items: center;
+    z-index: 1;
+}
+#subtitle {
+    margin-top: -6px;
+    padding-top: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    color: white;
+}
+#ReadMore {
+    font-weight: 600;
+    padding: 4px 8px;
+    border: 1px solid white;
+}
+
+/*Video*/
+
+.embed-responsive{
+    position: relative;    
+    padding-bottom: 50%;
+    height: 0;
+    overflow: hidden;
+}
+
+iframe{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+/*Footer*/
+.footer{
+    height: 50%;
+    margin-bottom: 0px;
+    font-size: 30px;
+    padding: 1rem;
+}
+
+.footer1 ion-icon{
+    margin-right: 3%;
+    color: white;
+}
+
+#footer2 div a{
+    font-weight: 100;
+    font-size: 15px;
+    text-decoration: none;
+    color: gray;
+}
+#footer2 div a:hover{
+    color: white;
+}
+#footer2{
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-left: 30px;
+}
+.social{
+    padding-left: 6%;
+    padding-top: 5%;
+}
+#facebook:hover{
+    color: #4267B2;
+}
+#instagram:hover{
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+    border-radius: 10px;
+}
+#twitter:hover{
+    color: #1DA1F2;
+}
+#youtube:hover{
+    color: #FF0000;
+}
+
+
+
+/* Media Query */
+
+@media (max-width: 1440px) {   /* Laptop L */
+
+}
+@media (max-width: 1024px) {   /* Laptop */
+    .carousel-caption {
+        top: 90%;
+    }
+    .carousel-caption h1 {
+        font-size: 50px;
+    }
+}
+@media (max-width >= 768px) {    /* Tablet */
+    nav .container-fluid .navbar-collapse .navbar-nav .nav-item {
+        visibility: hidden;
+    }
+}
+@media (min-width >= 768px) and (max-width <= 1440px) {
+    nav .container-fluid .offcanvas .offcanvas-header .btn-close {
+        visibility: hidden;
+    }
+}
+@media (max-width: 425px) {    /* Mobile L */
+
+}
+@media (max-width: 375px) {    /* Mobile M */
+
+}
+@media (max-width: 320px) {    /* Mobile S */
+
+}
+@media screen and (max-width: 1280px){
+    .swiper-content{
+        opacity: 0;
+    }
+}

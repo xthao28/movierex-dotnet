@@ -1,0 +1,68 @@
+@model MovieRex.Models.Movie
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_NewLayout.cshtml";
+}
+<div style="margin-left: 20px">
+    <h1>Edit</h1>
+    <h4>Movie</h4>
+</div>
+<div class="row">
+    <div class="col-lg-6 col-md-12 mx-auto">
+        <div class="card" style="min-height: 485px;">
+            <div class="card-content table-responsive">
+                <form asp-action="Edit">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <input type="hidden" asp-for="MovieID" />
+                    <div class="form-group">
+                        <label asp-for="Title" class="control-label"></label>
+                        <input asp-for="Title" class="form-control" />
+                        <span asp-validation-for="Title" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="OverView" class="control-label"></label>
+                        <input asp-for="OverView" class="form-control" />
+                        <span asp-validation-for="OverView" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Backdrop_Path" class="control-label"></label>
+                        <input asp-for="Backdrop_Path" class="form-control" />
+                        <span asp-validation-for="Backdrop_Path" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Release_Date" class="control-label"></label>
+                        <input asp-for="Release_Date" class="form-control" />
+                        <span asp-validation-for="Release_Date" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Vote" class="control-label"></label>
+                        <input asp-for="Vote" class="form-control" />
+                        <span asp-validation-for="Vote" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Country" class="control-label"></label>
+                        <input asp-for="Country" class="form-control" />
+                        <span asp-validation-for="Country" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Limit_Age" class="control-label"></label>
+                        <input asp-for="Limit_Age" class="form-control" />
+                        <span asp-validation-for="Limit_Age" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Duration" class="control-label"></label>
+                        <input asp-for="Duration" class="form-control" />
+                        <span asp-validation-for="Duration" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Save" class="btn btn-primary" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,90 @@
+@model IEnumerable<MovieRex.Models.Movie>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_NewLayout.cshtml";
+}
+
+<h1 class="m-4">Index</h1>
+<div class="row ">
+    <div class="col-lg-12 col-md-12">
+        <div class="card" style="min-height: 485px">
+            <div class="card-header card-header-text">
+                <h4 class="card-title">Movie</h4>
+                @*<p class="category"></p>*@
+            </div>
+            <div class="card-content table-responsive">
+                <table class="table table-hover">
+                    <thead class="text-primary">
+                        <tr>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Title)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.OverView)
+                            </th>
+                            <th>                                
+                                @Html.DisplayNameFor(model => model.Backdrop_Path)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Release_Date)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Vote)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Country)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Limit_Age)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Duration)
+                            </th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Title)
+                                </td>
+                                <td>
+                                    <p style="width: 150px;overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">
+                                        @Html.DisplayFor(modelItem => item.OverView)
+                                    </p>                                    
+                                </td>
+                                <td>
+                                    <p style="width: 150px;overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">
+                                        @Html.DisplayFor(modelItem => item.Backdrop_Path)
+                                    </p>
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Release_Date)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Vote)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Country)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Limit_Age)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Duration)
+                                </td>
+                                <td>
+                                    <a asp-action="Edit" asp-route-id="@item.MovieID">Edit</a> 
+                                    <a asp-action="Details" asp-route-id="@item.MovieID">Details</a> 
+                                    <a asp-action="Delete" asp-route-id="@item.MovieID">Delete</a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

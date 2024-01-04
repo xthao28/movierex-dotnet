@@ -1,0 +1,164 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <title>@ViewData["Title"] - MovieRex</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/bootstrap.min.css" />    
+    <link rel="stylesheet" href="~/css/custom.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body>
+    <div class="wrapper">
+        <div class="body-overlay"></div>
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3><img src="~/img/m.png" class="img-fluid w-10" /><span>MovieRex</span></h3>
+            </div>
+            <ul class="list-unstyled components">
+                <li>
+                    <a <a asp-controller="Account" asp-action="Index" class="dashboard"><i class="material-icons">account_circle</i><span>Account</span></a>
+                </li>            
+                <li class="dropdown">
+                    <a href="#homeSubmenu1" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <i class="material-icons">local_movies</i><span>Movie</span>
+                    </a>
+                    <ul class="collapse list-unstyled menu" id="homeSubmenu1">
+                        <li>
+                            <a asp-controller="Movie" asp-action="Index">Index</a>
+                        </li>
+                        <li>
+                            <a asp-controller="Movie" asp-action="Create">Create</a>
+                        </li>                        
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="#pageSubmenu2" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <i class="material-icons">recent_actors</i><span>Actor</span>
+                    </a>
+                    <ul class="collapse list-unstyled menu" id="pageSubmenu2">
+                        <li>
+                            <a asp-controller="Actor" asp-action="Index">Index</a>
+                        </li>
+                        <li>
+                            <a asp-controller="Actor" asp-action="Create">Create</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="#pageSubmenu3" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <i class="material-icons">category</i><span>Genre</span>                       
+                    </a>
+                    <ul class="collapse list-unstyled menu" id="pageSubmenu3">
+                        <li>
+                            <a asp-controller="Genre" asp-action="Index">Index</a>
+                        </li>
+                        <li>
+                            <a asp-controller="Genre" asp-action="Create">Create</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#pageSubmenu4" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <i class="material-icons">smart_display</i><span>Cast</span>
+                    </a>
+                    <ul class="collapse list-unstyled menu" id="pageSubmenu4">
+                        <li>
+                            <a asp-controller="MovieActor" asp-action="Index">Index</a>
+                        </li>
+                        <li>
+                            <a asp-controller="MovieActor" asp-action="Create">Create</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="#pageSubmenu5" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <i class="material-icons">border_color</i><span>Movie Genre</span>
+                    </a>
+                    <ul class="collapse list-unstyled menu" id="pageSubmenu5">
+                        <li>
+                            <a asp-controller="MovieGenre" asp-action="Index">Index</a>
+                        </li>
+                        <li>
+                            <a asp-controller="MovieGenre" asp-action="Create">Create</a>
+                        </li>
+                    </ul>
+                </li>                
+            </ul>
+        </nav>
+
+
+    <!-- Page Content  -->
+        <div id="content">
+
+            <div class="top-navbar">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+
+                        <button type="button" id="sidebarCollapse" class="d-xl-block d-lg-block d-md-mone d-none">
+                            <span class="material-icons">arrow_back_ios</span>
+                        </button>
+
+                        <a class="navbar-brand" href="#"> Dashboard </a>
+
+                        <button class="d-inline-block d-lg-none ml-auto more-button" type="button" data-toggle="collapse"
+                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="material-icons">more_vert</span>
+                        </button>
+
+                        @*<div class="collapse navbar-collapse d-lg-block d-xl-block d-sm-none d-md-none d-none" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <span class="material-icons">settings</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>*@
+                    </div>
+                </nav>
+            </div>
+
+            <div>
+                @RenderBody()
+            </div>
+            <footer class="footer">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <p class="copyright d-flex justify-content-end">
+                                © 2003-2022 MovieRex, Inc.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <script src="~/lib/jquery/dist/jquery-3.3.1.slim.min.js"></script>
+            <script src="~/lib/jquery/dist/popper.min.js"></script>
+            <script src="~/lib/bootstrap/bootstrap.min.js"></script>
+            <script src="~/lib/jquery/dist/jquery-3.3.1.min.js"></script>
+            @await RenderSectionAsync("Scripts", required: false)
+            <script type="text/javascript">$(document).ready(function () {
+                    $('#sidebarCollapse').on('click', function () {
+                        $('#sidebar').toggleClass('active');
+                        $('#content').toggleClass('active');
+                    });
+
+                    $('.more-button,.body-overlay').on('click', function () {
+                        $('#sidebar,.body-overlay').toggleClass('show-nav');
+                    });
+
+                });</script>
+</body>
+</html>
+

@@ -1,0 +1,73 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+
+body {
+    background-image: url(/img/background.jpg);
+    font-family: 'Nunito', sans-serif;
+    background-size: cover;
+}
+
+.container {
+    max-width: 100%;
+    height: 300px;
+}
+
+h1 {
+    color: white;
+    font-weight: 900;
+}
+
+form {
+    background: linear-gradient( rgba(0, 0, 0, 0.8) 100%, rgba(0, 0, 0, 0.5) 100%);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.form-group {
+    margin: 25px 20px 25px 20px;
+}
+
+.form-control {
+    border: none;
+    padding: 10px;
+    background: rgb(72, 72, 72);
+}
+
+.container div div form .form-group input {
+    border: none;
+    outline: none;
+}
+
+.checkbox {
+    margin-left: 25px;
+}
+
+#login {
+    margin: 0px;
+    padding: 10px 50px;
+    display: block;
+    min-width: 40%;
+    height: 45px;
+    background-color: #e60000;
+    border: none;
+    border-radius: 10px;    
+    text-align: center;
+    color: rgb(208, 206, 206);
+}
+
+    #login:hover {
+        background-color: red;
+        color: white;
+    }
+
+.savePass {
+    font-family: 'Nunito', sans-serif;
+    color: rgb(72, 72, 72);
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.registerNow {
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+}

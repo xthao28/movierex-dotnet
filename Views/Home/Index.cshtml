@@ -1,0 +1,337 @@
+﻿@model IEnumerable<MovieRex.Models.Movie>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="carousel slide" data-bs-ride="carousel" id="slide">
+    <ul class="carousel-indicators">
+        <li type="button" data-bs-target="#slide" data-bs-slide-to="0" class="active"></li>
+        <li type="button" data-bs-target="#slide" data-bs-slide-to="1"></li>
+        <li type="button" data-bs-target="#slide" data-bs-slide-to="2"></li>
+        <li type="button" data-bs-target="#slide" data-bs-slide-to="3"></li>
+        <li type="button" data-bs-target="#slide" data-bs-slide-to="4"></li>
+        <li type="button" data-bs-target="#slide" data-bs-slide-to="5"></li>
+    </ul>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img / style="height: 720px; object-fit: cover; width: 100%" src="/img/1146327.jpg">
+            <div class="carousel-caption" id="XT">
+                <div class="row" id="XT-intro">
+                    <div class="col-md-8">
+                        <div id="Logo">
+                            <img src="/img/m.png">
+                            MovieRex Series
+                        </div>
+                        <h1>Black Adam</h1>
+                        <div id="XT-rate">
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star-half"></ion-icon>
+                            <span>(4.5)</span>
+                        </div>
+                        <p id="XT-p">
+                            Gần 5.000 năm sau khi bị cầm tù với quyền năng tối thượng từ những vị thần cổ đại, Black Adam sẽ
+                            được giải phóng khỏi nấm mồ chết chóc của mình, mang tới thế giới hiện đại một kiểu nhận thức về công lý hoàn toàn mới.
+                        </p>
+                        <a href="http://127.0.0.1:5500/Screen/WatchMovie.html">
+                            <button type="button" class="btn btn-light btn-lg" id="XTPlay">
+                                <ion-icon id="XTplay" name="play"></ion-icon>
+                                <span>Phát</span>
+                            </button>
+                        </a>
+                        <a href="http://127.0.0.1:5500/Screen/Detail.html">
+                            <button type="button" class="btn btn-lg" id="XTInfo">
+                                <ion-icon id="XTinfo" name="information-circle-outline"></ion-icon>
+                                <span>Thông tin khác</span>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item" id="XT">
+            <img style="height: 720px; object-fit: cover;" src="/img/peakpx.jpg">
+            <div class="carousel-caption">
+                <div class="row" id="XT-intro">
+                    <div class="col-md-8">
+                        <div id="Logo">
+                            <img src="/img/m.png">
+                            MovieRex Series
+                        </div>
+                        <h1>Black Panther</h1>
+                        <div id="XT-rate">
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star-half"></ion-icon>
+                            <span>(4.7)</span>
+                        </div>
+                        <p id="XT-p">
+                            Nữ hoàng Ramonda, Shuri, M’Baku, Okoye và Dora Milaje chiến đấu để bảo vệ quốc gia của họ
+                            khỏi sự can thiệp của các thế lực thế giới sau cái chết của Vua T’Challa.
+                        </p>
+                        <a href="http://127.0.0.1:5500/Screen/WatchMovie.html">
+                            <button type="button" class="btn btn-light btn-lg" id="XTPlay">
+                                <ion-icon id="XTplay" name="play"></ion-icon>
+                                <span>Phát</span>
+                            </button>
+                        </a>
+                        <a href="http://127.0.0.1:5500/Screen/Detail.html">
+                            <button type="button" class="btn btn-lg" id="XTInfo">
+                                <ion-icon id="XTinfo" name="information-circle-outline"></ion-icon>
+                                <span>Thông tin khác</span>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img style="height: 720px; object-fit: cover;" src="/img/one piece.jpg">
+            <div class="carousel-caption" id="XT">
+                <div class="row" id="XT-intro">
+                    <div class="col-md-8">
+                        <div id="Logo">
+                            <img src="/img/m.png">
+                            MovieRex Series
+                        </div>
+                        <h1>One Piece Film Red</h1>
+                        <div id="XT-rate">
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star-half"></ion-icon>
+                            <span>(4.6)</span>
+                        </div>
+                        <p id="XT-p">
+                            Bối cảnh One Piece Film Red diễn ra ở hòn đảo âm nhạc Elegia,
+                            nơi diva nổi tiếng bậc nhất thế giới tên Uta thực hiện buổi biểu diễn
+                            trực tiếp đầu tiên trước công chúng. Uta đứng trên sân khấu với một ước
+                            mơ giản dị rằng ”Âm nhạc của tôi sẽ khiến cho thế giới hạnh phúc”. Đằng
+                            sau hình ảnh cô ca sĩ sở hữu giọng hát ở “đẳng cấp hoàn toàn khác” là một thân thế vô cùng bí ẩn được che giấu
+                        </p>
+                        <a href="http://127.0.0.1:5500/Screen/WatchMovie.html">
+                            <button type="button" class="btn btn-light btn-lg" id="XTPlay">
+                                <ion-icon id="XTplay" name="play"></ion-icon>
+                                <span>Phát</span>
+                            </button>
+                        </a>
+                        <a href="http://127.0.0.1:5500/Screen/Detail.html">
+                            <button type="button" class="btn btn-lg" id="XTInfo">
+                                <ion-icon id="XTinfo" name="information-circle-outline"></ion-icon>
+                                <span>Thông tin khác</span>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item" id="XT">
+            <img style="height: 720px; object-fit: cover;" src="/img/1290037.jpg">
+            <div class="carousel-caption">
+                <div class="row" id="XT-intro">
+                    <div class="col-md-8">
+                        <div id="Logo">
+                            <img src="/img/m.png">
+                            MovieRex Series
+                        </div>
+                        <h1>Avatar: The Way of Water</h1>
+                        <div id="XT-rate">
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star-half"></ion-icon>
+                            <span>(4.7)</span>
+                        </div>
+                        <p id="XT-p">
+                            Câu chuyện của “Avatar: Dòng Chảy Của Nước” lấy bối cảnh 10
+                            năm sau những sự kiện xảy ra ở phần đầu tiên. Phim kể câu chuyện về
+                            gia đình mới của Jake Sully cùng những rắc rối theo sau và bi kịch
+                            họ phải chịu đựng khi phe loài người xâm lược hành tinh Pandora.
+                        </p>
+                        <a href="http://127.0.0.1:5500/Screen/WatchMovie.html">
+                            <button type="button" class="btn btn-light btn-lg" id="XTPlay">
+                                <ion-icon id="XTplay" name="play"></ion-icon>
+                                <span>Phát</span>
+                            </button>
+                        </a>
+                        <a href="http://127.0.0.1:5500/Screen/Detail.html">
+                            <button type="button" class="btn btn-lg" id="XTInfo">
+                                <ion-icon id="XTinfo" name="information-circle-outline"></ion-icon>
+                                <span>Thông tin khác</span>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item" id="XT">
+            <img style="height: 720px; object-fit: cover;" src="/img/1289451.jpg">
+            <div class="carousel-caption">
+                <div class="row" id="XT-intro">
+                    <div class="col-md-8">
+                        <div id="Logo">
+                            <img src="/img/m.png">
+                            MovieRex Series
+                        </div>
+                        <h1>Wednesday</h1>
+                        <div id="XT-rate">
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star-half"></ion-icon>
+                            <span>(4.8)</span>
+                        </div>
+                        <p id="XT-p">
+                            Một cuộc điều tra, bí ẩn được truyền tải một cách siêu nhiên,
+                            ghi lại những năm tháng của Addams khi còn là sinh viên tại Học viện
+                            Nevermore. Những nỗ lực của Thứ Tư để làm chủ khả năng ngoại cảm mới
+                            nổi của cô, ngăn chặn một vụ giết người khủng khiếp đã khủng bố thị
+                            trấn địa phương và giải quyết bí ẩn siêu nhiên đã lôi kéo cha mẹ cô
+                            25 năm trước - tất cả trong khi điều hướng các mối quan hệ mới và rất
+                            rắc rối của cô tại Nevermore.
+                        </p>
+                        <a href="http://127.0.0.1:5500/Screen/WatchMovie.html">
+                            <button type="button" class="btn btn-light btn-lg" id="XTPlay">
+                                <ion-icon id="XTplay" name="play"></ion-icon>
+                                <span>Phát</span>
+                            </button>
+                        </a>
+                        <a href="http://127.0.0.1:5500/Screen/Detail.html">
+                            <button type="button" class="btn btn-lg" id="XTInfo">
+                                <ion-icon id="XTinfo" name="information-circle-outline"></ion-icon>
+                                <span>Thông tin khác</span>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item" id="XT">
+            <img style="height: 720px; object-fit: cover;" src="/img/1241167.png">
+            <div class="carousel-caption">
+                <div class="row" id="XT-intro">
+                    <div class="col-md-8">
+                        <div id="Logo">
+                            <img src="/img/m.png">
+                            MovieRex Series
+                        </div>
+                        <h1>Love And Thunder</h1>
+                        <div id="XT-rate">
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star-half"></ion-icon>
+                            <span>(4.6)</span>
+                        </div>
+                        <p id="XT-p">
+                            Sau những biến cố cuộc đời, Thor đi theo nhóm Vệ binh
+                            giải ngân hà để giải cứu những hành tinh yếu thế, tuy nhiên sâu
+                            thẳm trong anh vẫn cảm thấy buồn tẻ và cô độc. Một ngày nọ, Thor
+                            biết được tin một kẻ tự xưng là Kẻ Diệt Thần đang có âm mưu tấn
+                            công thành phố Asgard nên anh vội vàng trở về.
+                        </p>
+                        <a href="http://127.0.0.1:5500/Screen/WatchMovie.html">
+                            <button type="button" class="btn btn-light btn-lg" id="XTPlay">
+                                <ion-icon id="XTplay" name="play"></ion-icon>
+                                <span>Phát</span>
+                            </button>
+                        </a>
+                        <a href="http://127.0.0.1:5500/Screen/Detail.html">
+                            <button type="button" class="btn btn-lg" id="XTInfo">
+                                <ion-icon id="XTinfo" name="information-circle-outline"></ion-icon>
+                                <span>Thông tin khác</span>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Film Lists  -->
+<div class="trending-movies">
+    <div class="trend-heading">
+        <span>Hiện đang thịnh hành<ion-icon id="arrow" name="chevron-forward-outline"></ion-icon></span>
+    </div>
+    <div class="mySwiper">
+        <div class="swiper-wrapper" id="popular">
+            @foreach (var item in Model)
+                {
+                <div class="swiper-slide" id="BP-slide">
+                    <a href="#" id="trans">
+                        <div class="movie-pre">
+                            <img style="height: 140px; object-fit: cover; border-radius: 2px" src=@("https://image.tmdb.org/t/p/w500" + item.Backdrop_Path)>
+                            <img style="width: 20px; height: 20px; margin: -285px 0px 0px 5px;" src="/img/m.png">
+
+                        </div>
+
+                        <div class="swiper-content">
+                            <div class="icon">
+                                <div class="icon-l">
+                                    <a asp-action="Video" asp-route-id="@item.MovieID"><ion-icon id="ionicon" name="play-circle"></ion-icon></a>
+                                    <a asp-action="AddMovieFavourite" asp-route-id="@item.MovieID"><ion-icon id="ionicon" name="add-circle-outline"></ion-icon></a>
+                                </div>
+                                <div class="icon-r">
+                                    <a asp-action="Details" asp-route-id="@item.MovieID"><ion-icon id="ionicon" name="ellipsis-horizontal-circle-outline"></ion-icon></a>
+                                </div>
+                            </div>
+                            <div class="demo">
+                                <h5 class="status">Thịnh Hành</h5>
+                                <h5 class="age">@Html.DisplayFor(modelItem => item.Limit_Age)+</h5>
+                                <h5 class="series">@Html.DisplayFor(modelItem => item.Duration)</h5>
+                            </div>
+                            <div class="title">@Html.DisplayFor(modelItem => item.Title)</div>
+                        </div>
+                    </a>
+                </div>
+            }
+        </div>
+    </div>
+    <div class="trend-heading" style="margin-top: -100px;">
+        <span>Phim Mới<ion-icon id="arrow" name="chevron-forward-outline"></ion-icon></span>
+    </div>
+    <div class="mySwiper">
+        <div class="swiper-wrapper" id="nowPlaying">
+        </div>
+    </div>
+    @*<div class="trend-heading" style="margin-top: -100px;">
+        <span>MovieRex<ion-icon id="arrow" name="chevron-forward-outline"></ion-icon></span>
+    </div>
+    <div class="mySwiper">
+        <div class="swiper-wrapper" id="MovieRex">
+        </div>
+    </div>*@
+    <div class="trend-heading" style="margin-top: -100px;">
+        <span>Truyền Hình<ion-icon id="arrow" name="chevron-forward-outline"></ion-icon></span>
+    </div>
+    <div class="mySwiper">
+        <div class="swiper-wrapper" id="airingTv">
+        </div>
+    </div>
+    <div class="trend-heading" style="margin-top: -100px;">
+        <span>Đang Diễn Ra<ion-icon id="arrow" name="chevron-forward-outline"></ion-icon></span>
+    </div>
+    <div class="mySwiper">
+        <div class="swiper-wrapper" id="TvOnAir">
+        </div>
+    </div>
+    <div class="trend-heading" style="margin-top: -100px;">
+        <span>Phim Sắp Chiếu<ion-icon id="arrow" name="chevron-forward-outline"></ion-icon></span>
+    </div>
+    <div class="mySwiper">
+        <div class="swiper-wrapper" id="upcoming">
+        </div>
+    </div>
+</div>
+
+

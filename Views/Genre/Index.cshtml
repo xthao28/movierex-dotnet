@@ -1,0 +1,44 @@
+@model IEnumerable<MovieRex.Models.Genre>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_NewLayout.cshtml";
+}
+
+<h1 class="m-4">Index</h1>
+<div class="row ">
+    <div class="col-lg-7 col-md-12 m-2">
+        <div class="card" style="min-height: 485px">
+            <div class="card-header card-header-text">
+                <h4 class="card-title">Actor</h4>
+                @*<p class="category"></p>*@
+            </div>
+            <div class="card-content table-responsive">
+                <table class="table table-hover">
+                    <thead class="text-primary">
+                        <tr>
+                            <th>
+                                @Html.DisplayNameFor(model => model.GenreTitle)
+                            </th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.GenreTitle)
+                                </td>
+                                <td>
+                                    <a asp-action="Edit" asp-route-id="@item.GenreID">Edit</a> |
+                                    <a asp-action="Details" asp-route-id="@item.GenreID">Details</a> |
+                                    <a asp-action="Delete" asp-route-id="@item.GenreID">Delete</a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

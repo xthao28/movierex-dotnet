@@ -1,0 +1,51 @@
+﻿@model IEnumerable<MovieRex.Models.MovieGenre>
+
+<div>
+    @using (Html.BeginForm("SearchMV", "Home"))
+    {
+    <div class="Search">        
+        <input class="txtSearch" type="text" name="txtTimKiem" placeholder="Search Movie...">
+        <input class="smtSearch" type="submit" name="submit" value="Search">
+    </div>
+}
+</div>
+
+    <div class="trending-movies">
+        <div class="trend-heading">
+            <span>Phim<ion-icon id="arrow" name="chevron-forward-outline"></ion-icon></span>
+        </div>
+        <div class="mySwiper">
+            <div class="swiper-wrapper" id="popular">
+                @foreach (var item in Model)
+                {
+                    <div class="swiper-slide" id="BP-slide">
+                        <a href="#" id="trans">
+                            <div class="movie-pre">
+                                <img style="height: 140px; object-fit: cover; border-radius: 2px" src=@("https://image.tmdb.org/t/p/w500" + item.Movie.Backdrop_Path)>
+                                <img style="width: 20px; height: 20px; margin: -285px 0px 0px 5px;" src="/img/m.png">
+
+                            </div>
+
+                            <div class="swiper-content">
+                                <div class="icon">
+                                    <div class="icon-l">
+                                        <a asp-action="Video" asp-route-id="@item.Movie.MovieID"><ion-icon id="ionicon" name="play-circle"></ion-icon></a>
+                                        <a asp-action="AddMovieFavourite" asp-route-id="@item.Movie.MovieID"><ion-icon id="ionicon" name="add-circle-outline"></ion-icon></a>
+                                    </div>
+                                    <div class="icon-r">
+                                        <a asp-action="Details" asp-route-id="@item.MovieID"><ion-icon id="ionicon" name="ellipsis-horizontal-circle-outline"></ion-icon></a>
+                                    </div>
+                                </div>
+                                <div class="demo">
+                                    <h5 class="status">Thịnh Hành</h5>
+                                    <h5 class="age">@Html.DisplayFor(modelItem => item.Movie.Limit_Age)+</h5>
+                                    <h5 class="series">@Html.DisplayFor(modelItem => item.Movie.Duration)</h5>
+                                </div>
+                                <div class="title">@Html.DisplayFor(modelItem => item.Movie.Title)</div>
+                            </div>
+                        </a>
+                    </div>
+                }
+            </div>
+        </div>
+

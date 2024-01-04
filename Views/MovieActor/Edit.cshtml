@@ -1,0 +1,38 @@
+@model MovieRex.Models.MovieActor
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_NewLayout.cshtml";
+}
+<div style="margin-left: 20px">
+    <h1>Edit</h1>
+    <h4>Movie Actor</h4>
+</div>
+<div class="row">
+    <div class="col-lg-6 col-md-12 mx-auto">
+        <div class="card" style="min-height: 485px;">
+            <div class="card-content table-responsive">
+                <form asp-action="Edit">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <input type="hidden" asp-for="ID" />
+                    <div class="form-group">
+                        <label asp-for="MovieID" class="control-label"></label>
+                        <select asp-for="MovieID" class="form-control" asp-items="ViewBag.MovieID"></select>
+                        <span asp-validation-for="MovieID" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="ActorID" class="control-label"></label>
+                        <select asp-for="ActorID" class="form-control" asp-items="ViewBag.ActorID"></select>
+                        <span asp-validation-for="ActorID" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Save" class="btn btn-primary" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+
+    @section Scripts {
+        @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    }

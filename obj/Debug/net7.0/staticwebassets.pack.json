@@ -1,0 +1,377 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/obj/Debug/net7.0/scopedcss/projectbundle/MovieRex.bundle.scp.css",
+      "PackagePath": "staticwebassets/MovieRex.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/css/auth.css",
+      "PackagePath": "staticwebassets/css/auth.css"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/css/custom.css",
+      "PackagePath": "staticwebassets/css/custom.css"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/img/.DS_Store",
+      "PackagePath": "staticwebassets/img/.DS_Store"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/img/1146327.jpg",
+      "PackagePath": "staticwebassets/img/1146327.jpg"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/img/1241167.png",
+      "PackagePath": "staticwebassets/img/1241167.png"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/img/1289451.jpg",
+      "PackagePath": "staticwebassets/img/1289451.jpg"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/img/1290037.jpg",
+      "PackagePath": "staticwebassets/img/1290037.jpg"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/img/background.jpg",
+      "PackagePath": "staticwebassets/img/background.jpg"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/img/icons8-user-25.png",
+      "PackagePath": "staticwebassets/img/icons8-user-25.png"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/img/logo.png",
+      "PackagePath": "staticwebassets/img/logo.png"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/img/m.png",
+      "PackagePath": "staticwebassets/img/m.png"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/img/movierex.png",
+      "PackagePath": "staticwebassets/img/movierex.png"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/img/one piece.jpg",
+      "PackagePath": "staticwebassets/img/one piece.jpg"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/img/peakpx.jpg",
+      "PackagePath": "staticwebassets/img/peakpx.jpg"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/img/search-icon-png-2.png",
+      "PackagePath": "staticwebassets/img/search-icon-png-2.png"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/js/auth.js",
+      "PackagePath": "staticwebassets/js/auth.js"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/.DS_Store",
+      "PackagePath": "staticwebassets/lib/.DS_Store"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/Swiper/swiper-bundle.min.css",
+      "PackagePath": "staticwebassets/lib/Swiper/swiper-bundle.min.css"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/Swiper/swiper-bundle.min.js",
+      "PackagePath": "staticwebassets/lib/Swiper/swiper-bundle.min.js"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/bootstrap/.DS_Store",
+      "PackagePath": "staticwebassets/lib/bootstrap/.DS_Store"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/bootstrap/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/bootstrap/dist/.DS_Store",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/.DS_Store"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/jquery/.DS_Store",
+      "PackagePath": "staticwebassets/lib/jquery/.DS_Store"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/jquery/dist/jquery-3.3.1.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery-3.3.1.min.js"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/jquery/dist/jquery-3.3.1.slim.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery-3.3.1.slim.min.js"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "/Users/xthao28/Projects/MovieRex/MovieRex/wwwroot/lib/jquery/dist/popper.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/popper.min.js"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.MovieRex.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.MovieRex.props",
+      "PackagePath": "build\\MovieRex.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.MovieRex.props",
+      "PackagePath": "buildMultiTargeting\\MovieRex.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.MovieRex.props",
+      "PackagePath": "buildTransitive\\MovieRex.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

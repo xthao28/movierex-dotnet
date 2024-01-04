@@ -1,0 +1,44 @@
+﻿@model MovieRex.Models.Account
+@{
+    Layout = "~/Views/Shared/_Auth.cshtml";
+}
+<div class="row">
+    <div class="col-md-4 mx-auto">
+        <h1 class="text-center pt-3">Đăng Nhập</h1>
+        <form asp-action="Login">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">                
+                <input asp-for="UserName" class="form-control" placeholder="User Name"/>
+                <span asp-validation-for="UserName" class="text-danger"></span>
+            </div>
+            <div class="form-group">                
+                <div class="input-group">
+                    <input asp-for="Password" class="form-control" type="password" placeholder="Password"/>                    
+                </div>
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>            
+            <div class="form-group">
+                <input type="submit" value="Đăng Nhập" id="login" class="mx-auto" />
+                <div class="registerNow">
+                    <a style="color: gray;">Bạn mới tham gia?</a>
+                    <a asp-controller="Account" asp-action="Register" style="color: white;">Đăng ký ngay</a>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+@*@section scripts {
+    <script>$(function () {
+            $('#show-password-button').click(function () {
+                var passwordInput = $('input[name="Password"]');
+                if (passwordInput.attr('type') === 'password') {
+                    passwordInput.attr('type', 'text');
+                    $(this).text('Hide Password');
+                } else {
+                    passwordInput.attr('type', 'password');
+                    $(this).text('Show Password');
+                }
+            });
+        });</script>
+}*@
+

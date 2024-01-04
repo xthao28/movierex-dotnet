@@ -1,0 +1,77 @@
+﻿@model MovieRex.Models.Movie
+@{
+    ViewData["Title"] = "Details";
+}
+<div class="header">
+    <div class="bgr">
+        <img class="bg-img" src='https://image.tmdb.org/t/p/w500@(Html.DisplayFor(model => model.Backdrop_Path))'>
+        <div id="Logo1">
+            <img src="/img/m.png">
+            MovieRex Series
+        </div>
+        <h1 style="margin-left: 40px;">@Html.DisplayFor(model => model.Title)</h1>
+        <div class="item">
+            <a href="http://127.0.0.1:5500/Screen/WatchMovie.html">
+                <button type="button" class="btn btn-light btn-lg" id="XTPlay">
+                    <ion-icon id="XTplay" name="play"></ion-icon>
+                    <span>Phát</span>
+                </button>
+            </a>
+            <ion-icon id="ionicon" name="add-circle-outline"></ion-icon>
+        </div>
+    </div>
+    <div class="row" id="rowon">
+        <div class="col-md-7" style="font-size: 25px;">
+            <a style="color: #32CD32; font-size: 25px;">Độ trùng: 95%</a>&emsp;<a style="font-size: 25px;">@Html.DisplayFor(model => model.Release_Date.Year)</a>&emsp;
+            <a style="border: 0.5px solid white; font-size: 25px;">@Html.DisplayFor(model => model.Limit_Age)+</a>&emsp;<a style="font-size: 25px;">@Html.DisplayFor(model => model.Duration)</a><br><br>
+            <a style="font-weight: 500; font-size: 40px;">@Html.DisplayFor(model => model.Title)</a><br>
+            <a>
+                @Html.DisplayFor(model => model.OverView)
+            </a>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-4" style="font-size: 25px;">
+            <br><br>
+            <a><a style="color: rgb(144,144,144);">Diễn viên:</a>@ViewBag.MovieActor</a><br>
+            <a><a style="color: rgb(144,144,144);">Thể loại:</a>@ViewBag.MovieGenre</a><br>
+            <a><a style="color: rgb(144,144,144);">Chương trình này:</a>@Html.DisplayFor(model => model.Country)</a><br>
+            <a><a style="color: rgb(144,144,144);">Khởi chiếu:</a>@Html.DisplayFor(model => model.Release_Date)</a><br>
+            <a><a style="color: rgb(144,144,144);">Thời lượng:</a> @Html.DisplayFor(model => model.Duration)</a><br>
+            <a><a style="color: rgb(144,144,144);">Vote:</a>@Html.DisplayFor(model => model.Vote)</a>
+
+        </div>
+    </div>
+</div>
+<div class="grid-container">
+    @foreach (var item in ViewBag.MovieSimilar)
+    {
+        <div class="grid-item" style="background-color: rgb(40,40,40); width: 360px;">
+            <img class="img-mv" src="https://image.tmdb.org/t/p/w500@(item.Movie.Backdrop_Path)"><br>
+            <div class="row" id="rowdown">
+                <div class="col-md-5">
+                    <a style="color: #00FF00; margin-left: 20px; font-weight: 490;">Độ trùng: 96%</a><br>
+                    <a style="color: white; margin-left: 20px; border: 0.5px solid white;">@item.Movie.Limit_Age+</a> &ensp; <a style="color: white; font-size: 18px;">@item.Movie.Release_Date.Year</a>
+                </div>
+                <div class="col-md-4"></div>
+                <div class="col-md-3">
+                    <a asp-action="AddMovieFavourite" asp-route-id="@item.MovieID" style="color: white;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                            <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div style="padding: 10px 20px 30px 20px;">
+                <a style="color: white; font-size: 30px;">@item.Movie.Title</a><br>
+                <p style="overflow: hidden;
+                          white-space: nowrap;
+                          text-overflow: ellipsis;
+                          color: rgb(190,190,190);">
+                    @item.Movie.OverView
+                </p>
+            </div>
+        </div>
+    }
+</div>
+
